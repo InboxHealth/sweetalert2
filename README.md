@@ -8,18 +8,6 @@ An awesome replacement for JavaScript's alert.
 ![A success modal](https://raw.github.com/limonte/sweetalert2/master/sweetalert.gif)
 
 
-Why fork?
----------
-
-This fork provides the same functionality as the original by [t4t5](https://github.com/t4t5/sweetalert) but supports HTML code in modal, configuring modal width, padding and some other options.
-
-The old repository seems to be inactive. There's a bunch of Pull Requests without any replies, last merged pull request was on Nov 9, 2014.
-
-SweetAlert2 is backward compatible with [SweetAlert](https://github.com/t4t5/sweetalert).
-
-I will maintain this repo and I will accept pull requests.
-
-
 Usage
 -----
 
@@ -83,10 +71,16 @@ Contributing
 If you would like to contribute enhancements or fixes, please do the following:
 
 1. Fork the plugin repository.
-2. Hack on a separate topic branch created from the latest master.
-3. Commit and push the topic branch.
-4. Make a pull request.
-5. Welcome to the club
+2. Make sure you have [Node](http://nodejs.org/) and [NPM](https://www.npmjs.com/) installed. When in the SweetAlert directory, run the command:
+```shell
+npm install
+gulp watch
+```
+to install the dependencies and make Gulp automatically minify the SCSS and JS-files.
+3. Hack on a separate topic branch created from the latest master.
+4. Commit and push the topic branch.
+5. Make a pull request and wait for approval.
+6. Welcome to the club
 
 Please note that modifications should follow these coding guidelines:
 
